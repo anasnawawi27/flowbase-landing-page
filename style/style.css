@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mulish:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: "DM Sans";
+}
+
 .navbar {
   font-family: "DM Sans";
   font-weight: 600;
@@ -19,5 +23,253 @@
 
 .navbar .btn-get-started:hover {
   background-color: #ec5522;
+}
+
+header h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+header p {
+  font-family: "Mulish";
+  color: #696871;
+  font-size: 20px;
+}
+
+header .btn-get-started {
+  background-color: #5454D4;
+  border-radius: 10px;
+}
+
+header .btn-get-started:hover {
+  background-color: #0606e0;
+}
+
+header .btn-arrow {
+  width: 50px;
+  height: 50px;
+  line-height: 38px;
+  border: 0.5px solid #cacaca;
+}
+
+header .btn-arrow:hover {
+  -webkit-box-shadow: 0 10px 30px rgba(194, 194, 194, 0.3);
+          box-shadow: 0 10px 30px rgba(194, 194, 194, 0.3);
+}
+
+.subscription h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subscription p {
+  color: #696871;
+  font-size: 20px;
+  font-family: "Mulish";
+}
+
+.subscription a {
+  font-weight: bold;
+  color: #5454D4;
+  font-size: 17px;
+}
+
+.subscription .reveal {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.subscription .reveal:nth-child(2) {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.subscription .reveal.active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+.metric h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.metric p {
+  color: #696871;
+  font-size: 20px;
+  font-family: "Mulish";
+}
+
+.metric a {
+  font-weight: bold;
+  color: #5454D4;
+  font-size: 17px;
+}
+
+.metric .reveal {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.metric .reveal:nth-child(1) {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.metric .reveal.active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+.features h6 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.features p {
+  font-family: 'Mulish';
+  font-size: 16px;
+  color: #696871;
+}
+
+.features .reveal {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.features .reveal:nth-child(2) {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.features .reveal:nth-child(3) {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+.features .reveal.active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+.price h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.price .button-subscribe {
+  width: 335px;
+  height: 65px;
+  background-color: #F7F7FB;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.price .button-subscribe .btn-yearly {
+  width: 160px;
+  height: 55px;
+  color: black;
+  line-height: 45px;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price .button-subscribe .btn-monthly {
+  width: 160px;
+  height: 55px;
+  color: black;
+  line-height: 45px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price .button-subscribe .active {
+  background-color: #5454D4;
+  color: #fff;
+  outline: none;
+}
+
+.price .card {
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+.price .card .card-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.price .card .card-text {
+  color: #696871;
+  font-size: 18px;
+}
+
+.price .card .btn-get-started {
+  background-color: #fff;
+  color: #5454D4;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.price .card .btn-get-started:hover {
+  background-color: #838383;
+  color: #fff;
+}
+
+.price .card-premium {
+  background-color: #FF7143;
+  color: #fff;
+}
+
+.price .card-premium .card-text {
+  color: #fff;
+}
+
+.price .card-premium .btn-get-started {
+  background-color: #9F3919;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.price .card-premium .btn-get-started:hover {
+  background-color: #7c1c1c;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
