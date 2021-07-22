@@ -10,9 +10,47 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <img src="image/Logo Color.svg" alt="" />
+    <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Home </a>
+              <span class="px-3 d-block"></span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4" href="#">Blog</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-get-started px-4 py-2 text-white"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </nav>
 
     <script src="jquery/jquery-3.6.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="fontawe
+    <script src="fontawesome/js/all.js"></script>
+  </body>
+</html>
